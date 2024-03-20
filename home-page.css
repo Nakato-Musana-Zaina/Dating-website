@@ -1,0 +1,44 @@
+.nav{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+
+}
+.logo{
+    
+    color: rgb(167, 86, 86);
+    text-align: center;
+
+}
+.text{
+    text-align: center;
+    font-size: xx-large;
+}
+.text2{
+    font-size: x-large;
+    font-style: inherit;
+}
+.div1{
+    display: flex;
+    gap: 5%;
+}
+.div2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+}
+.div3{
+    display: flex;
+    gap: 5%;
+}
+.image{
+    width: 100%;
+    height: 80%;
+}
+.image2{
+    width: 100%;
+    height: 60%;
+}.body{
+    font-size: xx-large;
+    background-color: antiquewhite;
+}
