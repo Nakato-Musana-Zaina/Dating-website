@@ -1,6 +1,8 @@
 .nav{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    background-color: rgb(66, 66, 103);
+    padding: 40%;
     
 
 }
