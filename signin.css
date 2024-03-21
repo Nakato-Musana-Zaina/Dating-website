@@ -5,6 +5,8 @@
    width: 50%;
    align-content: center;
    background-color: bisque;
+   margin-left: 20%;
+   border-radius: 15%;
    
 
 }
@@ -14,7 +16,7 @@
 }
 .button{
     padding: 24px;
-    width: 50%;
+    width: 30%;
     background-color: rgb(175, 69, 69);
     color: white;
     font-size: larger;

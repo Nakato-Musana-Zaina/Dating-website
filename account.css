@@ -28,10 +28,39 @@
   }
   .button{
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     font-size: x-large;
     background-color: rgb(206, 146, 146);
+    border-radius: 5%;
 
+  }
+  .box1 {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  .box2 {
+    text-align: center;
+    padding: 10px 10px;
+  }
+  .front{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    background-color: aquamarine;
+  }
+  .navbar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: aliceblue;
+    background-color: rgb(116, 52, 52);
+    border: solid 2px ;
+    padding: 24px;
+  }
+  .textbutton{
+    color: aliceblue;
+    text-decoration: none;
   }
   
  

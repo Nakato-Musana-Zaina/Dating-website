@@ -2,14 +2,18 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     background-color: rgb(66, 66, 103);
-    padding: 40px;
+    padding: 20px;
+    color: aliceblue;
+    gap: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
     
 
 }
 .logo{
     
     color: rgb(167, 86, 86);
-    text-align: center;
+    text-align: rgb(50, 6, 6);
 
 }
 .text{
@@ -23,6 +27,8 @@
 .div1{
     display: flex;
     gap: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: ;
 }
 .div2{
     display: grid;
@@ -31,7 +37,9 @@
 }
 .div3{
     display: flex;
-    gap: 5%;
+    gap: 8%;
+    color: rgb(50, 6, 6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .image{
     width: 100%;
@@ -44,3 +52,21 @@
     font-size: xx-large;
     background-color: antiquewhite;
 }
+.div5{
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+}
+.button{
+    padding: 15px;
+    width: 20%;
+    background-color: rgb(119, 31, 31);
+    border-radius: 15%;
+    
+}
+.buttontext{
+    color: black;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
