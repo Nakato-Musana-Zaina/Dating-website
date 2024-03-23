@@ -1,7 +1,7 @@
 .form{
    font-size: x-large; 
    border: 2px solid;
-   padding: 80px;
+   padding: 70px;
    width: 50%;
    align-content: center;
    background-color: bisque;
@@ -10,6 +10,10 @@
    
 
 }
+/* .body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjtHo4Bs-1nItIWb20B6B_R7exhWDZJwZvBzUlwZSqBrUTJVumDw3GcMFVdFapqf-kRI&usqp=CAU);
+    background-repeat: no-repeat;
+} */
 .input{
     padding: 24px;
     width: 50%;
