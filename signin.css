@@ -4,16 +4,18 @@
    padding: 70px;
    width: 50%;
    align-content: center;
-   background-color: bisque;
+   background-color: transparent;
    margin-left: 20%;
    
    
 
 }
-/* .body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjtHo4Bs-1nItIWb20B6B_R7exhWDZJwZvBzUlwZSqBrUTJVumDw3GcMFVdFapqf-kRI&usqp=CAU);
+ .body{
+    background-image: url(https://media.istockphoto.com/id/1218652688/photo/orange-wonderful-shiny-glitter-lights-defocused-bokeh-abstract-background-with-falling-snow.jpg?s=612x612&w=0&k=20&c=6oI_daqRK1yJjM_2JedLujOLfhg2B4nRVeJ6rx1wqas=);
     background-repeat: no-repeat;
-} */
+    background-size: cover;
+    background-position: center;
+} 
 .input{
     padding: 24px;
     width: 50%;
@@ -21,7 +23,7 @@
 .button{
     padding: 14px;
     width: 20%;
-    background-color: rgb(175, 69, 69);
+    background-color: blue;
     color: white;
     font-size: larger;
     border-radius: 25%;
@@ -34,4 +36,17 @@
 .body{
     background-color: powderblue;
     padding: 24px;
+}
+.vid{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+@media (min-aspect-ratio:16/9){
+    .vid{
+        width: 100%;
+        height: auto;
+    }
 }

@@ -1,4 +1,7 @@
 /* Slideshow container */
+.body{
+  background-image: url();
+}
 .slideshow {
     max-width: 800px;
     position: relative;
