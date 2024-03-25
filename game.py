@@ -1,7 +1,7 @@
 
 import random
 import tkinter
-import tk
+
 
 colors_name = ['red','yellow','green','purple','white','cyan','purple','black','brown']
 
