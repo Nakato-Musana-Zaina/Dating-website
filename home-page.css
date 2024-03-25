@@ -1,3 +1,9 @@
+.body{
+  background-image: url(https://media.istockphoto.com/id/1218652688/photo/orange-wonderful-shiny-glitter-lights-defocused-bokeh-abstract-background-with-falling-snow.jpg?s=612x612&w=0&k=20&c=6oI_daqRK1yJjM_2JedLujOLfhg2B4nRVeJ6rx1wqas=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .nav{
     display: grid;
     grid-template-columns: repeat(4,1fr);
