@@ -1,5 +1,5 @@
 .body{
-  background-image: url(https://media.istockphoto.com/id/1218652688/photo/orange-wonderful-shiny-glitter-lights-defocused-bokeh-abstract-background-with-falling-snow.jpg?s=612x612&w=0&k=20&c=6oI_daqRK1yJjM_2JedLujOLfhg2B4nRVeJ6rx1wqas=);
+  background-image: url(https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -36,8 +36,10 @@
      text-align: center;
     padding: 10px;
     font-size: x-large;
-    background-color: rgb(206, 146, 146);
+    background-color: blue;
     border-radius: 5%; 
+    width: 30%;
+    border-radius: 8%;
     
 
   }
@@ -55,13 +57,13 @@
   .front{
     display: grid;
     grid-template-columns: repeat(4 ,1fr);
-    background-color: aquamarine;
+    background-color: ;
   }
   .navbar{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     color: aliceblue;
-    background-color: rgb(116, 52, 52);
+    background-color: blue;
     border: solid 2px ;
     padding: 24px;
   }
