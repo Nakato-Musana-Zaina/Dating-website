@@ -10,7 +10,7 @@
    display: flex; 
    gap: 8%;
 }
-.content1{
+#content1{
     border: solid 1px;
     padding: 18px;
     font-size: 200%;

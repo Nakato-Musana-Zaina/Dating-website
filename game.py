@@ -1,6 +1,8 @@
 
 import random
-import tkinter
+from tkinter import *
+from tkinter import Tk()
+import time
 
 
 colors_name = ['red','yellow','green','purple','white','cyan','purple','black','brown']
@@ -32,8 +34,8 @@ def countdown():
     global time_left
     if time_left > 0:
         time_left -=1
-        timeLabe1.config(text = 'Time Left: '+ str(time_left))
-        timeLabe1.after(1000,countdown)  
+        timeLabel.config(text = 'Time Left: '+ str(time_left))
+        timeLabel.after(1000,countdown)  
 
 root = tkinter.Tk()
 root.title('The COLORGAME')
@@ -46,7 +48,7 @@ scoreLabel = tkinter.Label(root, text ='Press Enter Key To start', font = ('san-
 scoreLabel.pack()
 
 timeLable = tkinter.Label(root,text = 'Time Left: '+ str(time_left), font = ('san-serif',18))
-timeLabe1.pack()
+timeLabel.pack()
 
 label = tkinter.Label(root, font = ('san-serif', 60))
 label.pack()
