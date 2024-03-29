@@ -50,3 +50,51 @@
         height: auto;
     }
 }
+@media screen and (min-width:250px) and (max-width:440px){
+    .button{
+        padding: 14px;
+        width: 50%;
+        background-color: blue;
+        color: white;
+        font-size: larger;
+        border-radius: 25%;
+        margin-left: 20%;
+    } 
+    .body{
+        background-color: powderblue;
+        padding: 10px;
+    } 
+    .form{
+        font-size: x-large; 
+        border: 2px solid;
+        padding: 50px;
+        width: 50%;
+        align-content: center;
+        background-color: transparent;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width:400px) and (max-width:990px){
+    .button{
+        padding: 14px;
+        width: 50%;
+        background-color: blue;
+        color: white;
+        font-size: larger;
+        border-radius: 25%;
+        margin-left: 20%;
+    } 
+    .body{
+        background-color: powderblue;
+        padding: 10px;
+    } 
+    .form{
+        font-size: x-large; 
+        border: 2px solid;
+        padding: 50px;
+        width: 50%;
+        align-content: center;
+        background-color: transparent;
+        margin-left: 20%;
+    }
+}

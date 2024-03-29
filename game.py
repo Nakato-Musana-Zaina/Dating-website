@@ -1,7 +1,7 @@
 
 import random
 from tkinter import *
-from tkinter import Tk()
+from tkinter.font as 
 import time
 
 
