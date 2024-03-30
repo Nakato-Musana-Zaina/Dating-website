@@ -4,6 +4,10 @@
   background-size: cover;
   background-position: center;
   filter: saturate(30px);
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  
 }
 .nav{
     display: grid;
@@ -54,6 +58,8 @@
     gap: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* color: ; */
+    background-color: rgb(175, 128, 144);
+    
 }
 .div2{
     display: grid;
@@ -103,7 +109,7 @@
     background-color: black;
     padding: 110px;
     color: antiquewhite;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 .active
@@ -128,7 +134,7 @@
     cursor: pointer;
   }
   
-  .pastpic,
+  /* .pastpic,
   .nextpic {
     cursor: pointer;
     position:fixed;
@@ -152,7 +158,7 @@
   .pastpic:hover,
   .nextpic:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
+  } */
   
   .numbering {
     color: #f2f2f2;
@@ -191,6 +197,14 @@
   }
   .newdiv{
     margin-left: 20%;
+  }
+  .link{
+    color: white;
+    text-decoration: solid;
+    border: solid 1px palevioletred ;
+    padding: 5px 10px;
+    
+    
   }
   @media screen and (min-width:250) and (max-width:400){
     .nav{

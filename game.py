@@ -25,6 +25,7 @@ while True:
             player_score +=1
     elif player == "scissors":
         if computer == "Rock":
+        
             print("You lose...", computer,"smashes",player)
             cpu_score+=1
         else:

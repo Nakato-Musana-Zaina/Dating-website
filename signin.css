@@ -1,4 +1,4 @@
-.form{
+#form{
    font-size: x-large; 
    border: 2px solid;
    padding: 70px;
@@ -16,7 +16,7 @@
     background-size: cover;
     background-position: center;
 } 
-.input{
+#input{
     padding: 24px;
     width: 50%;
 }
@@ -64,7 +64,7 @@
         background-color: powderblue;
         padding: 10px;
     } 
-    .form{
+    #form{
         font-size: x-large; 
         border: 2px solid;
         padding: 50px;
@@ -88,7 +88,7 @@
         background-color: powderblue;
         padding: 10px;
     } 
-    .form{
+    #form{
         font-size: x-large; 
         border: 2px solid;
         padding: 50px;
