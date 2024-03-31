@@ -30,6 +30,10 @@
   border: solid 2px black;
   padding: 94px;
   background-color: #9b398e;
+  overflow: hidden;
+  position: fixed;
+  width: 70%;
+  
 }
 /* .nav a:hover {
   background-color: #ddd;
