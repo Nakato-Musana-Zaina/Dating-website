@@ -66,6 +66,10 @@
     background-color: blue;
     border: solid 2px ;
     padding: 24px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   .textbutton{
     color: aliceblue;
@@ -73,12 +77,21 @@
   }
   .b1{
     background-color: black;
-    padding: 30px;
+    padding: 70px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 80%
 
   }
   .b2{
     border: solid 1px ;
-    padding: 24px;
+    background-color: aquamarine;
+    padding: 84px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 60%;
   }
   .foot{
     display: grid;
