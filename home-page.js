@@ -8,6 +8,7 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+  
   let i;
   let slides = document.getElementsByClassName("photo");
   let dots = document.getElementsByClassName("negativepic");
@@ -23,4 +24,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
+
 }
